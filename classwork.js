@@ -1,4 +1,5 @@
 // Hoisting
+
 console.log(name);
 var name="renu";
 
