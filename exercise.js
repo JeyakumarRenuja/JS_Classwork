@@ -40,48 +40,48 @@ let FormattedTotal=total.toLocaleString('en-IN', {
 console.log(`TotalPrice: RS ${FormattedTotal}`);
 
 // //question 6
-// let Text="hello@@world@@!";
-// let cleanText= Text.replace(/@@/g," "); //regular expressions(reg x)
-// console.log(cleanText);
+// // let Text="hello@@world@@!";
+// // let cleanText= Text.replace(/@@/g," "); //regular expressions(reg x)
+// // console.log(cleanText);
 
-// //OBJECTS part 1
+// // //OBJECTS part 1
 
-// Question 1
-// let person ={};
+// // Question 1
+// // let person ={};
 
-//question 2
-let person ={
-    name: "Renu",
-    age: 25,
+// //question 2
+// let person ={
+//     name: "Renu",
+//     age: 25,
 
-    introduceYou:function(){
-        console.log(`hi, I am ${this.name}and I am ${this.age}years old.`);
-    }
-};
-person.introduceYou();
+//     introduceYou:function(){
+//         console.log(`hi, I am ${this.name}and I am ${this.age}years old.`);
+//     }
+// };
+// person.introduceYou();
 
-//question 3
-let person={
-    name:"Renu",
-    age:25,
+// //question 3
+// let person={
+//     name:"Renu",
+//     age:25,
 
-    greetStudent:function(student){
-        console.log(`Hello${student.name},Welcome to the Coding School!`)
-    }
-};
-let student={
-    name:"Jaanu",
-    age: 26
-};
+//     greetStudent:function(student){
+//         console.log(`Hello${student.name},Welcome to the Coding School!`)
+//     }
+// };
+// let student={
+//     name:"Jaanu",
+//     age: 26
+// };
 
-person.greedStudent(student);
+// person.greedStudent(student);
 
-//question 4
-let person={
-    name:"Renu",
-    age:25,
-    country:"SriLanka"
-};
+// //question 4
+// let person={
+//     name:"Renu",
+// //     age:25,
+//    country:"SriLanka"
+// };
 //dot notation
 console.log(person.name);
 console.log(person.age);
@@ -194,95 +194,95 @@ console.log(":eight: Merged Object:", studentCourse);
 // let userInfo={
 //     name:"Renu",
 //     age:25
-// };
+// // };
 
-// let contactInfo={
-//     email:"jeyrenuja@gmail.com",
-//     phone:"0767654321"
-// };
+// // let contactInfo={
+// //     email:"jeyrenuja@gmail.com",
+// //     phone:"0767654321"
+// // };
 
-// letuserProfile={...userInfo,...contactInfo};
-// console.log(userProfile);
+// // letuserProfile={...userInfo,...contactInfo};
+// // console.log(userProfile);
 
-//Array part 1
+// //Array part 1
 
-//question 1
-let numbers=[1,2,36,7];
-let first=numbers[0];  //first element
-let last=numbers[numbers.length-1];  //last element
+// //question 1
+// let numbers=[1,2,36,7];
+// let first=numbers[0];  //first element
+// let last=numbers[numbers.length-1];  //last element
 
-console.log("First element:",first);
-console.log("Last element:",last);
+// console.log("First element:",first);
+// console.log("Last element:",last);
 
-//question 2
-let numbers=[1,2,36,7];
-numbers.unshift(10);   //add a new element start
-numbers.push(20);     //add a new  element end
-console.log("Updated array:",numbers);
+// //question 2
+// let numbers=[1,2,36,7];
+// numbers.unshift(10);   //add a new element start
+// numbers.push(20);     //add a new  element end
+// console.log("Updated array:",numbers);
 
-//question 3
-let numbers=[1,2,36,7];
-numbers.shift();   //remove 1st element
-numbers.pop();     //remove ;ast element
-console.log("Updated array:",numbers);
+// //question 3
+// let numbers=[1,2,36,7];
+// numbers.shift();   //remove 1st element
+// numbers.pop();     //remove ;ast element
+// console.log("Updated array:",numbers);
 
-//question 4
-let numbers=[1,2,36,7];
-for (let i=0;i<numbers.length;i++){
-    console.log(numbers[i]);
-}
+// //question 4
+// let numbers=[1,2,36,7];
+// for (let i=0;i<numbers.length;i++){
+//     console.log(numbers[i]);
+// }
 
 //question 5
-let numbers=[1,2,36,7];
-numbers.forEach(function(number){
-    console.log(number);
-});
+// let numbers=[1,2,36,7];
+// numbers.forEach(function(number){
+//     console.log(number);
+// });
 
-//question 6
-let numbers=[1,2,36,7];
+// //question 6
+// let numbers=[1,2,36,7];
 
-let maxValue = Math.max(...numbers);
-let minValue = Math.min(...numbers);
+// let maxValue = Math.max(...numbers);
+// let minValue = Math.min(...numbers);
 
-console.log("Maximum value:", maxValue);
-console.log("Minimum value:", minValue);
+// console.log("Maximum value:", maxValue);
+// console.log("Minimum value:", minValue);
 
-//question 7
-let numbers=[1,2,36,7];
+// //question 7
+// let numbers=[1,2,36,7];
 
-if (numbers.includes(36)) {
-  console.log("36 exists in the array");
-} else {
-  console.log("36 does not exist in the array");
-}
+// if (numbers.includes(36)) {
+//   console.log("36 exists in the array");
+// } else {
+//   console.log("36 does not exist in the array");
+// }
 
 
-//question 8
-let numbers=[1,2,36,7];
+// //question 8
+// let numbers=[1,2,36,7];
 
-let sum = numbers.reduce((total, current) => total + current, 0);
+// let sum = numbers.reduce((total, current) => total + current, 0);
 
-console.log("Sum of all numbers:", sum);
+// console.log("Sum of all numbers:", sum);
 
-//question 9
-let numbers = [1, 2, 36, 7];
+// //question 9
+// let numbers = [1, 2, 36, 7];
 
-numbers.sort((a, b) => a - b);
+// numbers.sort((a, b) => a - b);
 
-console.log("Ascending order:", numbers);
+// console.log("Ascending order:", numbers);
 
-//question 10
-let numbers = [1, 2, 36, 7];
+// //question 10
+// let numbers = [1, 2, 36, 7];
 
-numbers.reverse();
+// numbers.reverse();
 
-console.log("Reversed array:", numbers);
+// console.log("Reversed array:", numbers);
 
-//question 11
-let numbers = [1, 2, 36, 7];
+// //question 11
+// let numbers = [1, 2, 36, 7];
 
-let greaterThanFive = numbers.filter(num => num > 5);
+// let greaterThanFive = numbers.filter(num => num > 5);
 
-console.log("Numbers greater than 5:", greaterThanFive);
+// console.log("Numbers greater than 5:", greaterThanFive);
 
 
